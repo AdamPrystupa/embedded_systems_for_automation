@@ -1,0 +1,20 @@
+.program ws2812_reversed
+
+.side_set 1
+.wrap_target
+
+loop :
+    out x, 1 side 1; 
+    nop side 0 [6]
+    jmp !x, send_zero side 0;    
+    nop side 0 [7] ;           
+    nop side 1 [5];      
+    jmp wrapper side 1;        
+
+send_zero :
+    nop side 1 [13];     
+    jmp wrapper side 1;    
+        
+wrapper :
+    nop side 1
+.wrap

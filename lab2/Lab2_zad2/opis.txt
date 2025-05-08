@@ -1,0 +1,2 @@
+Adam Prystupa 275496
+Dokończony działający terminal, testowany na UART ze względu na brak możliwośći sprawdzenia RS485.
