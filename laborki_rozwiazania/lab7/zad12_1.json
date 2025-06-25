@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Fri, 06 Jun 2025 14:36:37 GMT
+Server: Apache/2.4.62 (Raspbian)
+Vary: Accept-Encoding
+Content-Length: 116
+Content-Type: text/html; charset=UTF-8
+
+{"id":"275496","temperature":{"value":31,"unit":"F"},"pressure":{"value":1024,"unit":"mmHg"},"city":"Szczebrzeszyn"}
